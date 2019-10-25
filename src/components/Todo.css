@@ -1,0 +1,66 @@
+.logo {
+  width: 50px;
+  top: 50px;
+}
+
+.todo {
+  text-align: center;
+  border: 1px solid white;
+  width: 80vw;
+  height: auto;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.3);
+  color: #fdfdfd;
+  padding-bottom: 60px;
+  margin: 40px auto;
+}
+
+.todo-header {
+  text-transform: uppercase;
+  color: black;
+  font-weight: 400;
+  margin: 4px auto 20px;
+}
+
+.todo-subheader {
+  font-size: 1em;
+  color: black;
+  font-weight: 400;
+  margin: 4px auto 20px;
+}
+
+.todo-add {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background: #73ff73;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #47a947;
+  color: white;
+  font-size: 18px;
+  margin-right: 5px;
+  align-self: center;
+}
+
+.todo-add:hover {
+  box-shadow: none;
+  margin-left: calc(auto + 1px);
+}
+
+.todo-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.todo-input {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.todo-input input {
+  width: 90%;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 1px rgb(255, 243, 243);
+  padding: 12px;
+  margin: 0;
+  margin-right: 10px;
+}

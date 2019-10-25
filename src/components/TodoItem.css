@@ -1,0 +1,35 @@
+.todo-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.todo-item-text {
+  width: 90%;
+  border: 1px solid lightgray;
+  box-shadow: 1px 1px 1px rgb(255, 243, 243);
+  padding: 12px;
+  margin: 0;
+  margin-right: 10px;
+  background: white;
+  color: black;
+  user-select: none;
+}
+
+.todo-item-delete {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background: #c70202;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #c70202;
+  color: white;
+  font-size: 18px;
+  margin-right: 5px;
+  align-self: center;
+}
+
+.todo-item-delete:hover {
+  box-shadow: none;
+  margin-left: calc(auto + 1px);
+}
